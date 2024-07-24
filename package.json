@@ -1,0 +1,18 @@
+{
+  "name": "lenslight",
+  "version": "1.0.0",
+  "description": "lenslight proje",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "ada",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
