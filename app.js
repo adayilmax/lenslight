@@ -1,7 +1,14 @@
 import express from "express";
+import dotenv from "dotenv";
+import conn from "./db.js"
 
-const app = express()
-const port = 3000
+dotenv.config();
+
+//connection to the db
+conn();
+
+const app = express();
+const port = process.env.PORT;
 
 //ejs template engine
 app.set("view engine", "ejs");
